@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const bodyParser = require('body-parser')
 var jsonParser = bodyParser.json()
-const todo = require('../Controllers/todo')
+const todo = require('../Controllers/todos')
 
 // create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
